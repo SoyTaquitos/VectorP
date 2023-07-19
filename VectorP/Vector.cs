@@ -183,7 +183,7 @@ namespace VectorP
         public bool VerificarSegmentoOrdenado(int a,int b)
         {
             bool r = true;
-            for (int i = 1; i <= b; i++)
+            for (int i = a; i <= b - 1; i++)
             {
                 if (v[i] <= v[i + 1])
                 {
